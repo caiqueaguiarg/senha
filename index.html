@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de senha</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <h1 class="titulo" id="tituloTexto">Seja bem-vindo! Digite a sua senha</h1>
+    <div class="caixasTexto">
+        <input type="password" placeholder="Senha" class="caixaSenha" id="senha">
+        <i  onclick="liberarSenha()" class="bi bi-eye-fill" id="olho"></i>
+        <p class="paragrafo" id="paragrafo"> 
+        <section class="textoAlternativo" id="texto1">
+            - A senha deve ter pelo menos 8 caracteres.
+        </section>
+        <section class="textoAlternativo2" id="texto2">
+            - A senha deve conter pelo menos um caractere especial:( !, @, #, $, %, ^, &, *, _.)
+        </section> </p>
+         <section class="botoes" id="botoesid">
+         <button onclick="verificarSenha()" class="verificador" id="botaoVerificador">Verificar</button>
+         <button onclick="reiniciar()" class="tentarDnv" id="tentarDnvId">Tentar novamente</button>
+        </section>
+    </div>
+    <div class="imagens2">
+    <img class="imagem" src="./imagens/cadeado.png" width="200px" height="200px">
+    <img class="imagemRobo" src="./imagens/robo.png" width="200px" height="200px">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

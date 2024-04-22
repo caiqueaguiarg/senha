@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000000;
+    color: #008cff;
+}
+
+.titulo{
+    margin: 4%;
+    font-size: 400%;
+    text-align: center;
+}
+.caixasTexto{
+    
+    width: 610px ;
+    height: 210px;
+    margin: 3%;
+    align-items: center;
+    margin-right: 33%;
+    margin-left: 25%;
+    background-color: #161515;
+}
+
+.caixaSenha{
+    position: relative;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    height: 30px;
+    width: 450px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: #008cff;
+}
+
+.verificador{
+    margin-top: 2%;
+    width: 225px;
+    height: 30px;
+    margin-left: 30%;
+    background-color: #068FFF;
+    color: #ffffff;
+}
+
+.imagens2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+div i{
+   font-size: 20px;
+}
+
+.textoAlternativo2{
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+.tentarDnv{
+    margin-top: 1%;
+    width: 225px;
+    height: 30px;
+    margin-left: 30%;
+    background-color: #068FFF;
+    color: #ffffff;
+    
+}
+
+.textoAlternativo{
+    margin-top: 2%;
+    margin-left: 1%;
+}
